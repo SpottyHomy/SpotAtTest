@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules
+
+# Configuration files
+/mm-config.json
+
+# Custom
+.env
+awsCredentials.json
+.env.test
+docker-files/*
+DS_Store
+.DS_Store
+.idea/*
+.idea/
+docker-files/
+testCoverage/
+microservices/
+
+dump.rdb
+.vscode/launch.json
