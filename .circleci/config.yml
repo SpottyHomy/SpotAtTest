@@ -26,7 +26,7 @@ jobs:
     docker:
       - image: google/cloud-sdk
     environment:
-      - PROJECT_NAME: "My First Project"
+      - PROJECT_NAME: "spotattest"
       - GOOGLE_PROJECT_ID: "river-lantern-210719"
       - GOOGLE_COMPUTE_ZONE: "europe-west1-b"
       - GOOGLE_CLUSTER_NAME: "spotattest"
